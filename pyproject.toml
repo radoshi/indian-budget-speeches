@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "indian-budget-speeches"
+version = "0.1.0"
+description = "LLM chatbot over speeches of Indian Finance Ministers."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "indian_budget_speeches"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+openai = "^0.27.8"
+chromadb = "^0.4.3"
+llama-index = "^0.7.14"
+pypdf = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
